@@ -16,6 +16,10 @@ public class NumberWizard : MonoBehaviour {
 
     void StartGame()
     {
+        max = 1000;
+        min = 1;
+        guess = 500;
+
         Debug.Log("Welcome to number wizard,yo");
         Debug.Log("Pick an number,don't tell me what it is...");
         Debug.Log("The highest number you can pick is :" + max);
